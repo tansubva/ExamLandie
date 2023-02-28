@@ -22,6 +22,11 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(39, 56, 128, 1);
 }
 
 p {

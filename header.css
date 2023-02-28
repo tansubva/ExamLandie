@@ -1,8 +1,4 @@
-.contain {
-    position: relative;
-    width: 100%;
-    padding-left: 5%;
-}
+
 
 .contain > .cloud-img {
     width: 65%;

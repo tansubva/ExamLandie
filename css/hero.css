@@ -8,6 +8,10 @@
     margin-top: 201px; 
     width: 50%;
 }
+.img-hero{
+    width: 70%;
+    margin-left: 30%;
+}
 .img-hidden {
     display: none;
 }

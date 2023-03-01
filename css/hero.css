@@ -4,21 +4,21 @@
     display: flex;
     margin-top: 100px;
 }
-
 .header  .img {
     margin-top: 201px; 
     width: 50%;
 }
-
+.img-hidden {
+    display: none;
+}
 .text-hero {
     width: 50%;
     padding-top: 40px;
+    padding-left: 20px;
 }
-
 .text-hero p:first-of-type {
     margin: 20px 0 20px 0;
 }
-
 .text-hero > h1 {
     font-weight: 500;
     font-size: 50px;
@@ -26,14 +26,12 @@
     letter-spacing: 1px;
     color: #091133;
 }
-
 .text-hero > p {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: rgba(80, 95, 152, 1);
 }
-
 .text-hero > button {
     width: 189px;
     height: 36px;
@@ -42,21 +40,53 @@
     line-height: 26px;
     margin-top: 74px;
 }
-
 .btn-black {
     background-color: rgba(17, 27, 71, 1);
     color: white;
     border: none;
+    margin-top: 20px;
 }
-
 .btn-white {
     background-color: white;
     border: 2px solid rgba(9, 17, 51, 1);
     color: rgba(9, 17, 51, 1);
-    margin-left: 30px;
+    margin-top: 20px;
 }
-
 .btn-white:hover {
     color: white;
     border: none;
 }
+
+@media screen and (max-width: 1000px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .cloud-img {
+        display: none;
+    }
+    .img {
+        display: none;
+    }
+    .img-hidden {
+        display: block;
+    }
+    .text-hero {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .first-txt {
+        display: none;
+    }
+    .hero-btns {
+        margin-top: 31px;
+    }
+    .btn-white {
+        margin-top: 18px;
+        margin-left: 0;
+    }
+}
+
+

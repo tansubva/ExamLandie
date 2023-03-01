@@ -10,6 +10,10 @@
     width: 50%;
 }
 
+.img-hidden {
+    display: none;
+}
+
 .text-hero {
     width: 50%;
     padding-top: 40px;
@@ -60,3 +64,5 @@
     color: white;
     border: none;
 }
+
+

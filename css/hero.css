@@ -4,25 +4,22 @@
     display: flex;
     margin-top: 100px;
 }
-.header  .img {
-    margin-top: 201px; 
-    width: 50%;
+.img-hidden {
+    display: none;
 }
+.text-hero {
+    width: 60%;
+    padding-top: 40px;
+    padding-left: 163px;
+}
+
 .img-hero{
     width: 35%;
     margin-left: 30%;
     position: absolute;
     right: 0;
-     
 }
-.img-hidden {
-    display: none;
-}
-.text-hero {
-    width: 50%;
-    padding-top: 40px;
-    padding-left: 20px;
-}
+
 .text-hero p:first-of-type {
     margin: 20px 0 20px 0;
 }
@@ -34,7 +31,6 @@
     color: #091133;
 }
 .text-hero > p {
-    font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: rgba(80, 95, 152, 1);
@@ -43,7 +39,6 @@
     width: 189px;
     height: 36px;
     font-weight: 500;
-    font-size: 16px;
     line-height: 26px;
     margin-top: 74px;
 }
@@ -68,8 +63,8 @@
     .hero {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-left: 0;
     }
     .cloud-img {
         display: none;
@@ -91,10 +86,13 @@
 
 
     .text-hero {
-        width: 450px;
+        width: 400px;
         margin-top: 20px;
         text-align: center;
-        
+        padding-left: 0;
+    }
+    .text-hero h1 {
+        font-size: 30px;
     }
     .first-txt {
         display: none;

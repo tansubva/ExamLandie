@@ -1,6 +1,5 @@
-.contain > .cloud-img {
-    width: 65%;
-    height: 1000px;
+.container > .cloud-img {
+    height: 950px;
     position: absolute;
     right: 0;
     z-index:-1;
@@ -9,17 +8,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
 }
 .panel {
     display: flex;
-    flex-direction: row;
     list-style: none;
-    padding-left: 20px;
+    padding-left: 165px;
 }
 .tab {
     padding-right: 60px;
-    font-weight: 400;
     font-size: 14px;
     color: #505F98;
 }
@@ -42,7 +38,7 @@
     color: #FFFFFF;
     background-color: rgba(17, 27, 71, 1);
     border: none;
-    margin-right: 20px;
+    margin-right: 165px;
 }
 .burger-icon {
     display: none;
@@ -50,28 +46,22 @@
 
 @media screen and (max-width: 1000px) {
     .header {
-        padding: 20px;
+        padding: 16px;
         display: flex;
         justify-content: space-between;
     }
-    .panel {
-        display: none;
-    }
-    .btn-header {
+    .panel, .btn-header {
         display: none;
     }
     .burger-icon {
-        width: 50px;
+        width: 15px;
         display: block;
         border: none;
         background-color: transparent;
     }
     .burger-icon:hover {
         background-color: transparent;
-    }
-    .btn-white {
-        margin-left: 0;
-    }
+    } 
 }
 
 

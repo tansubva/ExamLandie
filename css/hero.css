@@ -9,8 +9,11 @@
     width: 50%;
 }
 .img-hero{
-    width: 70%;
+    width: 35%;
     margin-left: 30%;
+    position: absolute;
+    right: 0;
+     
 }
 .img-hidden {
     display: none;
@@ -63,10 +66,10 @@
 
 @media screen and (max-width: 1000px) {
     .hero {
-        display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 20px;
+        justify-content: center;
+        margin-top: 10px;
     }
     .cloud-img {
         display: none;
@@ -77,18 +80,30 @@
     .img-hidden {
         display: block;
     }
+
+    .hero h1 {
+        font-size: 30px;
+        line-height: 35px;
+        
+
+    }
+
+
+
     .text-hero {
+        width: 450px;
         margin-top: 20px;
         text-align: center;
+        
     }
     .first-txt {
         display: none;
     }
     .hero-btns {
-        margin-top: 31px;
+        margin-top: 30px;
     }
     .btn-white {
-        margin-top: 18px;
+        margin-top: 20px;
         margin-left: 0;
     }
 }

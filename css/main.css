@@ -1,9 +1,12 @@
 .main{
+    width: 100%;
     margin-top: 80px;
-    padding-left: 5%;
+    margin-left: 5%;
+
 }
 h2{
     font-size: 26px;
+    margin-bottom: 20px;
 }
 .main p{
     margin: 20px 0 80px 0;
@@ -13,46 +16,76 @@ h4{
     color: #000;
 }
 
-.chapter{
+.chapter {
     float: left;
-    width: 50%;
+    width: 40%;
+    text-align: center;
+}
+.chapter:last-child{
+    float: right;
 }
 .chapter p{
     font-size: 12px;
     line-height: 18px;
+    text-align: left;
     color: #000;
 }
+.chapter .svg{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
 .sides{
-    padding: 160px 15% 108px 15%;
+    padding: 160px 10% 108px 10%;
     display: flex;
 }
-.sides .right, .sides .left, .side .right, .side .left {
+.sides .right, .sides .left{
     width: 50%;
     
 }
 .sides .right {
     margin-left: 50px;
 }
-
+.right button{
+    margin-top: 70px;
+ }
 
 @media screen and (max-width: 1200px) {
     .main, .second{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         max-width: 760px;
-        margin-top: 100px;
         padding-left: 0;
+        margin-left: 0;
         text-align: left;
-        background-color: #9CA7DF;       
+        background-color: #9CA7DF;  
+        overflow: hidden;     
     }
-    .sides {
-        
+    .sides .right {
+        margin-left: 0;
+    }
+    .main .sides{
+        width: 100%;
          flex-direction: column-reverse;
     }
+    .sides{
+        width: 100%;
+        flex-direction: column;
+    }
+
     .sides .right, .sides .left, .chapter{
         width: 100%;
+        text-align: left;
+    }
+    .chapter h4, .chapter p{
+        color: #fff;
         text-align: center;
     }
-    .chapter img{
-        width: 10%;
+    svg{
+        fill: white;
+        width: 15%;
+        margin: 0 auto;     
     }
 
     h2{
@@ -65,12 +98,10 @@ h4{
         background-color: transparent;
         
     }
-    .side .right, .side .left{
-        width: 100%;
-        text-align: center;
-    }
     .side + .side{
         margin-top: 50px;
     }
-
+    .right img, .left img{
+        width: 90%;
+    }
 }

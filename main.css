@@ -22,6 +22,10 @@ h4{
     line-height: 18px;
     color: #000;
 }
+.chapter .svg{
+    width: 30%;
+    fill: #000;
+}
 .sides{
     padding: 160px 15% 108px 15%;
     display: flex;
@@ -51,8 +55,13 @@ h4{
         width: 100%;
         text-align: center;
     }
-    .chapter img{
+    .chapter{
+        color: #fff;
+    }
+    .chapter .svg{
         width: 10%;
+        fill: #fff;
+
     }
 
     h2{

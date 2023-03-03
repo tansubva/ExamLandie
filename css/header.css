@@ -50,11 +50,15 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .header .title {
+        margin-left: 9%;
+    }
     .panel, .btn-header {
         display: none;
     }
     .burger-icon {
-        width: 15px;
+        width: 20%;
         display: block;
         border: none;
         background-color: transparent;

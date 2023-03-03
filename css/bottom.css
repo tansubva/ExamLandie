@@ -1,0 +1,45 @@
+.bottom .container {
+    height: 783px;
+    background-color: #F3F5FF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom .text-block {
+    width: 51%;
+    height: 142px;
+}
+
+.bottom svg {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.bottom .h1 {
+    font-size: 36px;
+    color: rgba(9, 17, 51, 1);
+}
+
+.bottom p {
+    color: rgba(111, 124, 178, 1);
+    margin-top: 16px;
+}
+
+.quotation {
+    color: rgba(93, 105, 112, 1);
+    margin-top: 61px;
+}
+
+@media screen and (max-width: 1000px) {
+    .bottom .h1 {
+        font-size: 30px;
+    }
+
+    .bottom svg {
+        margin-top: 130px;
+    }
+
+}

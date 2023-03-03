@@ -50,6 +50,11 @@ h4{
  }
 
 @media screen and (max-width: 1200px) {
+    .main{
+        margin-top: 230px;
+
+    }
+
     .main, .second{
         display: flex;
         justify-content: center;

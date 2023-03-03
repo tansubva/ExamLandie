@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
-a {
+footer a {
   text-decoration: none;
 }
-.block {
+footer .block {
   width: 100%;
   background-color: #f3f5ff;
 }
-.text-block {
+footer .text-block {
   width: 90%;
   height: 783px;
   display: flex;
@@ -82,7 +82,7 @@ footer {
   line-height: 38px;
   color: #37447e;
 }
-button {
+footer button {
   width: 109px;
   height: 26px;
   background-color: #111b47;
@@ -103,7 +103,7 @@ button {
   padding-bottom: 32px;
   margin: 0px 165px;
 }
-.line {
+footer .line {
   width: 80%;
   margin: 0 auto;
   margin-top: 2%;
@@ -130,7 +130,7 @@ a:last-child {
   padding-right: 0;
 }
 @media screen and (max-width: 1000px) {
-  .text-block {
+  footer .text-block {
     height: 706px;
     margin: 0 auto;
   }
@@ -175,7 +175,7 @@ a:last-child {
   }
 }
 @media screen and (max-width: 420px) {
-  .text-block {
+  footer .text-block {
     height: 706px;
     margin: 0 auto;
   }

@@ -1,7 +1,6 @@
 .main{
     width: 100%;
     margin-top: 80px;
-    margin-left: 5%;
 
 }
 h2{
@@ -55,7 +54,6 @@ h4{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: 760px;
         padding-left: 0;
         margin-left: 0;
         text-align: left;

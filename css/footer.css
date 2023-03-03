@@ -1,12 +1,5 @@
-*{
-    margin: 0;padding: 0;box-sizing: border-box;
-}
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 a {
   text-decoration: none;
 }
@@ -136,7 +129,7 @@ button {
 a:last-child {
   padding-right: 0;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
   .text-block {
     height: 706px;
     margin: 0 auto;

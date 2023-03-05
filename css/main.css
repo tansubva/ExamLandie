@@ -1,110 +1,165 @@
-.main{
+.main {
     width: 100%;
     margin-top: 80px;
-
 }
-h2{
+
+.main h2 {
     font-size: 26px;
     margin-bottom: 20px;
 }
-.main p{
+
+.main p {
     margin: 20px 0 80px 0;
 }
-h4{
+
+.main h4 {
     margin-top: 14px;
     color: #000;
 }
 
-.chapter {
+.main .chapter {
     float: left;
     width: 40%;
     text-align: center;
 }
-.chapter:last-child{
+
+.main .chapter:last-child {
     float: right;
 }
-.chapter p{
+
+.main .chapter p {
     font-size: 12px;
     line-height: 18px;
     text-align: left;
-    color: #000;
+    color: rgba(93, 105, 112, 1);
 }
-.chapter .svg{
+
+.main .chapter .svg {
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
-.sides{
+
+.main .sides {
     padding: 160px 10% 108px 10%;
     display: flex;
 }
-.sides .right, .sides .left{
-    width: 50%;
-    
+
+.second .sides {
+    width: 90%;
+    display: flex;
+    padding-top: 200px;
+    margin-left: 5%;
 }
-.sides .right {
+
+.second .sides .right {
+    padding-top: 5%;
+}
+
+.main .sides .right {
     margin-left: 50px;
 }
-.right button{
+
+.second .sides .left {
+    width: 400px;
+    margin-right: 300px;
+}
+
+.main .right .btn-black {
     margin-top: 70px;
- }
+}
 
-@media screen and (max-width: 1200px) {
-    .main{
-        margin-top: 230px;
+.right .btn-black {
+    background-color: rgba(17, 27, 71, 1);
+    border: none;
+    color: white;
+}
 
+@media screen and (max-width: 1000px) {
+    .main {
+        background-color: #9CA7DF;
+        margin-top: 200px;
     }
 
-    .main, .second{
+    .sides,
+    .second {
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        padding-left: 0;
-        margin-left: 0;
-        text-align: left;
-        background-color: #9CA7DF;  
-        overflow: hidden;     
-    }
-    .sides .right {
-        margin-left: 0;
-    }
-    .main .sides{
-        width: 100%;
-         flex-direction: column-reverse;
-    }
-    .sides{
-        width: 100%;
+        align-items: center;
         flex-direction: column;
     }
 
-    .sides .right, .sides .left, .chapter{
+    .main .sides {
         width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .main .left p,
+    h2 {
+        color: white;
         text-align: left;
     }
-    .chapter h4, .chapter p{
-        color: #fff;
+
+
+    .chapters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second .sides .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .btn-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+
+
+
+    .second .right p,
+    h2 {
+        text-align: left;
+    }
+
+    .chapter h4 {
+        color: white;
+
+    }
+
+    .main .left .chapter p {
+        color: white;
         text-align: center;
     }
-    svg{
+
+
+
+    .main svg {
         fill: white;
         width: 15%;
-        margin: 0 auto;     
+        margin: 0 auto;
     }
 
-    h2{
+    .main h2 {
         margin-top: 50px;
         margin-bottom: 16px;
     }
 
-    .second{
-        width: 100%;
-        background-color: transparent;
-        
-    }
-    .side + .side{
+
+    .side+.side {
         margin-top: 50px;
     }
-    .right img, .left img{
-        width: 90%;
+
+    .right img,
+    .left img {
+        width: 110%;
     }
 }

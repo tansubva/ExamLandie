@@ -1,6 +1,7 @@
 .bottom .container {
     height: 783px;
     background-color: #F3F5FF;
+    margin-top: 20px;
 
     display: flex;
     justify-content: center;
@@ -11,11 +12,12 @@
 .bottom .text-block {
     width: 51%;
     height: 142px;
+    text-align: center;
 }
 
 .bottom svg {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 120px;
 }
 
 .bottom .h1 {
@@ -34,12 +36,16 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .bottom .h1 {
+    .bottom h1 {
         font-size: 30px;
     }
 
     .bottom svg {
-        margin-top: 130px;
+        margin-top: 250px;
+    }
+
+    .bottom .text-block {
+        width: 80%;
     }
 
 }

@@ -35,26 +35,29 @@
     line-height: 30px;
     color: rgba(80, 95, 152, 1);
 }
-.text-hero > button {
+.text-hero  button {
     width: 189px;
     height: 36px;
     font-weight: 500;
     line-height: 26px;
-    margin-top: 74px;
 }
-.btn-black {
+.hero .btn-black {
     background-color: rgba(17, 27, 71, 1);
     color: white;
     border: none;
     margin-top: 20px;
 }
-.btn-white {
+.hero .btn-white {
     background-color: white;
     border: 2px solid rgba(9, 17, 51, 1);
     color: rgba(9, 17, 51, 1);
-    margin-top: 20px;
+    margin-left: 30px;
+}
+.btn-black:hover {
+    background-color: rgba(39, 56, 128, 1);
 }
 .btn-white:hover {
+    background-color: rgba(39, 56, 128, 1);
     color: white;
     border: none;
 }
@@ -98,13 +101,19 @@
         display: none;
     }
 
+    .hero .left h2, p {
+        text-align: center;
+    }
+
     .hero-btns {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
-    .btn-white {
-        margin-top: 20px;
+    .hero .btn-white {
         margin-left: 0;
+        margin-top: 13px;
     }
 }
 

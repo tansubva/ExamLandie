@@ -87,6 +87,7 @@ footer button {
   height: 26px;
   background-color: #111b47;
   border-radius: 2px;
+  border: none;
 }
 .box-3 {
   font-weight: 500;
